@@ -1,0 +1,53 @@
+.container-Outhome {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    height:fit-content;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .container-Inhome{
+    width: 70%;
+    height: auto;
+    background: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    color: rgb(255, 0, 0);
+    border-radius: 50px;
+  }
+  
+  .container-Inhome h2 {
+    margin: 25px 0;
+  }
+  
+  .container-Outhome p {
+    text-align: center;
+    color: aqua;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  
+  .rabbit-img {
+    width: 25%;
+    position: relative;
+    display: grid;
+    padding-left: 5%;
+    padding-top: 2%;
+  }
+  
+  .start {
+    border-radius: 40px;
+    text-decoration: none;
+    width: 200px;
+    margin: 20px auto;
+    border: none;
+    color: black;
+    background: rgb(226,99,32);
+    background: linear-gradient(0deg, rgb(165, 137, 13) 0%, gold 100%);
+    box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
+    padding: 12px;
+    cursor: pointer;
+    outline: none;
+    font-family: "Exo 2", sans-serif;
+    display: block;
+  }
